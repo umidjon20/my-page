@@ -1,11 +1,11 @@
 
+import { Pages } from './components/Pages/Pages'
 import './App.scss'
 
 function App() {
-  
-
-  return (
+   return (
     <>
+    <Pages />
    <h1>React</h1>
     </>
   )
