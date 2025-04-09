@@ -6,7 +6,6 @@ function App() {
    return (
     <>
     <Pages />
-   <h1>React</h1>
     </>
   )
 }

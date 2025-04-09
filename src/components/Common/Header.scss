@@ -1,6 +1,15 @@
 .flexsb{
    display: flex;
    justify-content: space-between; 
+   align-items: center;
+   img{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    background-color:rgb(80, 80, 70);
+    border-radius:35px 35px 10px 10px;
+    border-bottom: 1px solid greenyellow;
+}
 }
 header{
     background-color:var(--headingColor);
@@ -14,18 +23,7 @@ header{
     a{
         margin-left: 40px;
     }
-    button{
-        border: none;
-        outline: none;
-        background: none;
-        font-style: 17px;
-        background-color:var(--primaryColor);
-        color: var(--white);
-        padding: 15px 50px;
-        border-radius: 50px;
-        margin-top: 20px;
-        cursor: pointer;
-    }
+   
     .toggle{
         cursor: pointer;
         color: var(--white);

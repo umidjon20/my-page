@@ -29,7 +29,7 @@ a:hover {
 }
 p {
   color: var(--sliver);
-  font-size: 15px;
+  font-size: 30px;
   line-height: 30px;
   margin: 20px 0;
 }
@@ -44,4 +44,19 @@ h6 {
 .container {
   max-width: 80%;
   margin: auto;
+}
+.flex{
+  display: flex;
+}
+button {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 17px;
+  background-color: var(--primaryColor);
+  color: var(--white);
+  padding: 15px 50px;
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
 }
