@@ -1,7 +1,7 @@
 import {Settings,CropRotate,ViewInAr,PieChart,Code, BarChart,CloudOutlined,
 FavoriteBorder,Public,PersonOutlined,AddLocationAltOutlined,
 PhoneIphone,EmailOutlined,Telegram,Instagram,YouTube,LinkedIn,GitHub} 
-from '@mui/icons-material'
+from "@mui/icons-material"
 
 export const navlink =[
     {
