@@ -1,4 +1,4 @@
-section{
+.hero{
     height: 90vh;
     display: flex;
     align-items: center;
@@ -29,9 +29,6 @@ section{
             font-weight: 600;
             color: var(--primaryColor);
         }
-        .primaryBtn{
-            background:none;
-            border: 2px solid var(--primaryColor);
-        }
+
     }
 }

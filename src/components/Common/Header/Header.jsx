@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { navlink } from '../Data/mydata.jsx'
+import { navlink } from '../../Data/mydata.jsx'
 import { Menu } from '@mui/icons-material'
-import logo from '../Data/images/hacker-logo.png'
+import logo from '../../Data/images/hacker-logo.png'
 import './Header.scss'
 export const Header = () => {
     const [responsive, setResponsive] = useState(false)

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
-import './hero.scss'
+import './Hero.scss'
 import { home } from '../Data/mydata'
 export const Hero = () => {
   return (

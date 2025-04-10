@@ -6,7 +6,8 @@ import {
     Link
   } from "react-router-dom";
   import { Home } from '../Home/Home';
-  import { Header } from '../Common/Header';
+  import { Header } from '../Common/Header/Header';
+  import { About } from './About/About';
   import './Pages.scss'
 export const Pages = () => {
   return (
@@ -15,10 +16,8 @@ export const Pages = () => {
             <Header />
             <Switch>
               <Route exact path='/' component={Home} />
-            {/* <Route path="/about">
-                <About />
-            </Route>
-             */}
+              <Route exact path='/about' component={About} />
+         
             </Switch>
         </Router>
     </>
