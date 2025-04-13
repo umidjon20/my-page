@@ -1,0 +1,16 @@
+
+.counter{
+    margin-top: 80px;
+    position: relative;
+    &::after{
+        background-image: url(../../Data/images/images.jpg);
+        height: 50vh;
+        
+    }
+    .grid4{
+        grid-template-columns: repeat(4, 1fr);
+        height: 50vh;
+        place-items: center;
+        text-align: center;
+    }
+}
