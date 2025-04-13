@@ -13,7 +13,7 @@ export const About = () => {
                         <div className="left">
                             <img src={val.cover} alt="" />
                         </div>
-                        <div className="right">
+                        <div className="right" key={i}>
                             <Heading  title='About Me'/>
                             <p>{val.desc}</p>
                             <p>{val.desc1}</p>

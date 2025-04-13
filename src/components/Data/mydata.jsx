@@ -2,7 +2,6 @@ import {Settings,CropRotate,ViewInAr,PieChart,Code, BarChart,CloudOutlined,
 FavoriteBorder,Public,PersonOutlined,AddLocationAltOutlined,
 PhoneIphone,EmailOutlined,Telegram,Instagram,YouTube,LinkedIn,GitHub} 
 from "@mui/icons-material"
-
 export const navlink =[
     {
         url:'/',
@@ -118,42 +117,42 @@ export const about = [
   export const portfolio = [
     {
       id: 1,
-      cover: "../images/port/port1.jpg",
+      cover: './images/port/marketing.jpg',
       name: "Brand",
       category: "marketing",
       title: "Brex Logo",
     },
     {
       id: 2,
-      cover: "../images/port/port2.jpg",
+      cover: "./images/port/design.jpg",
       name: "Brand",
       category: "design",
       title: "Brex Logo",
     },
     {
       id: 3,
-      cover: "../images/port/port3.jpg",
+      cover: "./images/port/development.jpg",
       name: "Brand",
       category: "development",
       title: "Brex Logo",
     },
     {
       id: 4,
-      cover: "../images/port/port4.jpg",
+      cover: "./images/port/marketing2.png",
       name: "Brand",
       category: "marketing",
       title: "Brex Logo",
     },
     {
       id: 5,
-      cover: "../images/port/port5.jpg",
+      cover: "./images/port/design2.jpg",
       name: "Brand",
       category: "design",
       title: "Brex Logo",
     },
     {
       id: 6,
-      cover: "../images/port/port6.jpg",
+      cover: "./images/port/development1.jpg",
       name: "Brand",
       category: "development",
       title: "Brex Logo",
