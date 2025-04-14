@@ -1,16 +1,29 @@
 import React from 'react'
+import { FormatQuote } from '@mui/icons-material'
+import { testimonials } from '../../Data/mydata'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import  Slider  from 'react-slick'
 
 import './Testimonials.scss'
-import { testimonials } from '../../Data/mydata'
 export const Testimonials = () => {
+    const settings = {
+        dots:true,
+        infinite:true,
+        speed:500,
+        slidesToShow:1,
+        slidesToScroll:1,
+    }
   return (
     <>
     <div className="testimonials hero">
         <div className="container">
-            {testimonials.map((item,i)=>(
+            <Slider {...settings}>
+            {testimonials.map((item)=>(
                 <div className="box">
-                    <i>
-                        {/* <FormatQuote /> */}
+                        <i className='quote'>
+                            <FormatQuote />
+                        </i>
                         <p>{item.text}</p>
                         <div className="img">
                             <img src={item.image} alt="" />
@@ -19,9 +32,10 @@ export const Testimonials = () => {
                         <label>
                             {item.post}
                         </label>
-                    </i>
+                 
                 </div>
             ))}
+            </Slider>
         </div>
     </div>
     </>
