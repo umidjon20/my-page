@@ -2,8 +2,7 @@ import React from 'react'
 import {
     BrowserRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
   } from "react-router-dom";
   
   import { Home } from '../Home/Home';
@@ -11,6 +10,7 @@ import {
   import { About } from './About/About';
   import { Services } from './Services/Services';
   import { Portfolio } from './Portfolio/Portfolio';
+  import { Testimonials } from './Testimonials/Testimonials';
 
   import './Pages.scss'
 export const Pages = () => {
@@ -23,6 +23,8 @@ export const Pages = () => {
               <Route exact path='/about' component={About} />
               <Route exact path='/services' component={Services} />
               <Route exact path='/portfolio' component={Portfolio} />
+              <Route exact path='/testimonials' component={Testimonials} />
+
             </Switch>
         </Router>
     </>

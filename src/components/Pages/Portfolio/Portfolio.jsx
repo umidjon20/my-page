@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {Heading} from '../../Common/Heading/Heading'
 import { portfolio } from '../../Data/mydata'
-import mha from '../../Data/images/port/design.jpg'
+
 
 const allCategory = ['all', ...new Set(portfolio.map((item)=> item.category))]
 
