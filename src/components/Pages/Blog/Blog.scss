@@ -1,0 +1,13 @@
+.blog{
+    img{
+        width: 100%;
+
+    }
+    .box{
+        background-color: var(--primaryBackground);
+        background-repeat: 10px;
+        .text{
+            padding: 10px 30px;
+        }
+    }
+}

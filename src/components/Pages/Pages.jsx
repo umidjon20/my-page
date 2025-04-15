@@ -11,6 +11,7 @@ import {
   import { Services } from './Services/Services';
   import { Portfolio } from './Portfolio/Portfolio';
   import { Testimonials } from './Testimonials/Testimonials';
+  import { Blog } from './Blog/Blog';
 
   import './Pages.scss'
 export const Pages = () => {
@@ -24,6 +25,7 @@ export const Pages = () => {
               <Route exact path='/services' component={Services} />
               <Route exact path='/portfolio' component={Portfolio} />
               <Route exact path='/testimonials' component={Testimonials} />
+              <Route exact path='/blog' component={Blog} />
 
             </Switch>
         </Router>
