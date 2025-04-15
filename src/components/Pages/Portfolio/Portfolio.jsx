@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Visibility } from '@mui/icons-material'
 import {Heading} from '../../Common/Heading/Heading'
 import { portfolio } from '../../Data/mydata'
 
@@ -23,6 +24,7 @@ export const Portfolio = () => {
     <>
     <article>
         <div className="container">
+           
             <Heading title = 'Portfolio'/>
             <div className="catButton">
                 {category.map((category)=>(
@@ -33,6 +35,7 @@ export const Portfolio = () => {
             </div>
        
         <div className="content grid3">
+
             {list.map((items,i)=>(
                 <div className="box" key={i}> 
                     <div className="img">
@@ -41,7 +44,7 @@ export const Portfolio = () => {
                     <div className="overlay">
                         <h3>{items.title}</h3>
                         <span>{items.name}</span>
-                        {/* <Visibility /> */}
+                        <Visibility />
                     </div>
                 </div>
             ))}
