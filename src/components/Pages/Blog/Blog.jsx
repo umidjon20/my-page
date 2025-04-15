@@ -8,7 +8,7 @@ export const Blog = () => {
     <section className='blog'>
       <div className="container">
         <Heading title={'Blog'} />
-        <div className="conetent grid3">
+        <div className="content grid3">
           {blog.map((item)=>(
             <div className="box">
               <div className="img">

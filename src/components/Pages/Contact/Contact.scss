@@ -1,0 +1,38 @@
+.contact{
+    margin: 20px 0;
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right{
+        width: 65%;
+        padding: 40px;
+        input,
+        textarea,
+        button{
+            width: 100%;
+            padding: 20px;
+            border: none;
+            outline: none;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .flex {
+            input{
+                &:nth-child(1){
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .left{
+        width: 35%;
+        padding: 20px;
+        .box{
+            padding: 20px;
+            margin-top: 0;
+
+        }
+    }
+}

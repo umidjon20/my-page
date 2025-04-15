@@ -210,18 +210,18 @@ export const about = [
   export const contact = [
     {
       icon: <AddLocationAltOutlined />,
-      text1: "2651 Main Street, Suit 124",
-      text2: "Seattle, WA, 98101",
+      text1: "Kashkadaryo region Karshi",
+      text2: "Bog'obod To'qmang'it Mustahkam 40",
     },
     {
       icon: <PhoneIphone />,
-      text1: "0123456789",
-      text2: "0345627891",
+      text1: "+998997346704",
+      text2: "+998904272026",
     },
     {
       icon: <EmailOutlined />,
-      text1: "hello@thetheme.io",
-      text2: "inf0@brex-theme.io",
+      text1: "amirqulov@email.com",
+      text2: "amirqulov-end@email.com",
     },
   ]
   export const social = [
