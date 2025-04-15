@@ -13,17 +13,17 @@ export const Contact = () => {
                 <div className="right">
                     <form >
                         <div className="flex">
-                            <input type="text" placeholder='Name' />
-                            <input type="email" placeholder='Email' />
+                            <input type="text" placeholder='Name'  data-aos = 'zoon-in-down'/>
+                            <input type="email" placeholder='Email'  data-aos = 'zoon-in-up' />
                         </div>
-                        <input type="text" placeholder='Subject' />
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                        <button>Submit</button>
+                        <input type="text" placeholder='Subject'  data-aos = 'zoon-in-up' />
+                        <textarea name="" id="" cols="30" rows="10"  data-aos = 'zoon-in-down'></textarea>
+                        <button  data-aos = 'zoon-in-down'>Submit</button>
                     </form>
                 </div>
                 <div className="left">
                     {contact.map((item)=>(
-                        <div className="box">
+                        <div className="box"  data-aos = 'zoon-in-down'>
                             <i>{item.icon}</i>
                             <p>{item.text1}</p>
                             <p>{item.text2}</p>

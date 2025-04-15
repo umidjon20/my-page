@@ -28,7 +28,8 @@ export const Portfolio = () => {
             <Heading title = 'Portfolio'/>
             <div className="catButton">
                 {category.map((category)=>(
-                    <button className='primaryBtn' onClick={()=> filterItems(category)}>
+                    <button className='primaryBtn' onClick={()=> filterItems(category)}
+                    data-aos = 'zoom-out-down'>
                         {category}
                     </button>
                 ))}
@@ -37,7 +38,7 @@ export const Portfolio = () => {
         <div className="content grid3">
 
             {list.map((items,i)=>(
-                <div className="box" key={i}> 
+                <div className="box" key={i} data-aos = 'fade-up'> 
                     <div className="img">
                         <img src={items.cover} alt="opo" />
                     </div>

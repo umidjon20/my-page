@@ -11,9 +11,9 @@ export const About = () => {
                 {about.map((val, i)=>(
                         <>
                         <div className="left">
-                            <img src={val.cover} alt="" />
+                            <img src={val.cover} alt="" data-aos = 'fade-down-right' />
                         </div>
-                        <div className="right" key={i}>
+                        <div className="right" key={i} data-aos = 'fade-down-left'>
                             <Heading  title='About Me'/>
                             <p>{val.desc}</p>
                             <p>{val.desc1}</p>

@@ -21,15 +21,15 @@ export const Testimonials = () => {
             <Slider {...settings}>
             {testimonials.map((item)=>(
                 <div className="box">
-                        <i className='quote'>
+                        <i className='quote' data-aos = 'zoom-out-up'>
                             <FormatQuote />
                         </i>
-                        <p>{item.text}</p>
+                        <p  data-aos = 'zoom-out-down'>{item.text}</p>
                         <div className="img">
-                            <img src={item.image} alt="" />
+                            <img src={item.image} alt=""  data-aos = 'zoom-out-right'/>
                         </div>
-                        <h3>{item.name}</h3>
-                        <label>
+                        <h3  data-aos = 'zoom-out-left'>{item.name}</h3>
+                        <label  data-aos = 'zoom-out'>
                             {item.post}
                         </label>
                  

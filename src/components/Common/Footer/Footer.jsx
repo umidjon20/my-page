@@ -7,10 +7,10 @@ export const Footer = () => {
     <>
     <footer>
         {social.map((item)=>(
-            <i>{item.icon}</i>
+            <i  data-aos = 'zoon-in-left'>{item.icon}</i>
         )
         )}
-        <p>All rights Rescved 2025</p>
+        <p  data-aos = 'zoon-in-right'>All rights Rescved 2025</p>
     </footer>
     </>
   )

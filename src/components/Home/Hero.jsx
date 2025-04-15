@@ -9,15 +9,15 @@ export const Hero = () => {
             
             {home.map((val, i)=>(
                 <div className="heroContainer" key={i}>
-                    <h3>{val.text}</h3>
+                    <h3 data-aos = 'fade-right'>{val.text}</h3>
                     <h1>
                         <Typewriter 
                             words={[`${val.name}`, `${val.post}`, `${val.design}`]}
                             loop={'true'}
                         />
                     </h1>
-                    <p>{val.desc}</p>
-                    <button className='primaryBtn'>Download DV</button>
+                    <p data-aos = 'fade-left'>{val.desc}</p>
+                    <button className='primaryBtn' data-aos = 'fade-up-right'>Download DV</button>
                 </div>
             ))}
         </section>
