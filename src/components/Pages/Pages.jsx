@@ -13,7 +13,7 @@ import {
   import { Testimonials } from './Testimonials/Testimonials';
   import { Blog } from './Blog/Blog';
   import { Contact } from './Contact/Contact';
-
+  import { Footer } from '../Common/Footer/Footer';
   import './Pages.scss'
 export const Pages = () => {
   return (
@@ -28,8 +28,8 @@ export const Pages = () => {
               <Route exact path='/testimonials' component={Testimonials} />
               <Route exact path='/blog' component={Blog} />
               <Route exact path='/contact' component={Contact} />
-
             </Switch>
+            <Footer />
         </Router>
     </>
   )

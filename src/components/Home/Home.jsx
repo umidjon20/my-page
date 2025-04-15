@@ -7,6 +7,7 @@ import { Portfolio } from '../Pages/Portfolio/Portfolio'
 import { Testimonials } from '../Pages/Testimonials/Testimonials'
 import { Blog } from '../Pages/Blog/Blog'
 import { Contact } from '../Pages/Contact/Contact'
+import { Footer } from '../Common/Footer/Footer'
 export const Home = () => {
   return (
     <>
